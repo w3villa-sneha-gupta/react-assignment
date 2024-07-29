@@ -1,0 +1,39 @@
+.filter-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-search-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.filter-search-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-search-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.no-results {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
